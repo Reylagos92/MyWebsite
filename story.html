@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+  <head>
+  <body>
+    <main id="game">
+
+      <section id="stats" aria-labelledby="stats-heading">
+        <h2 id="stats-heading">Game Stats</h2>
+        <span class="stats">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stats">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stats">Gold: <strong><span id="goldText">50</span></strong></span>
+      </section>
+
+      <section id="story" aria-labelledby="title">
+        <h1 id="title">Death House</h1>
+        <p id="text"></p>
+      </section>
+
+      <section id="choicesContainer"></section>
+
+      <div id="monsterStats">
+        <span class="stats">Monster Name: <strong><span id="monsterNameText"></span></strong></span>
+        <span class="stats">Health: <strong><span id="monsterHealthText"></span></strong></span>
+      </div>
+
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

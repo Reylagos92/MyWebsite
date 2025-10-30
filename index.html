@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Your Adventure</title>
+    <link rel="stylesheet" href="styles.css">
   <head>
   <body>
-   
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-
+    <main id="game">
+      <div id="stats">
+        <p><span class="stats">XP: <strong><span id="xpText">0</span></strong></span></p>
+        <p><span class="stats">Health: <strong><span id="healthText">100</span></strong></span></p>
+        <p><span class="stats">Gold: <strong><span id="goldText">50</span></strong></span></p>
+      </div>
+      <section id="story">
+        <h1 id="chapterTitle">Chapter 1: Awakening</h1>
+        <p id="text">
+        </p>
+      </section>
+      <div id="beginAdventure">
+        <button id="choice1">Enter the house</button>
+      </div>
+      <div id="monsterStats">
+        <p><span class="stats">Monster Name: <strong><span id="monsterName"></span></strong></span></p>
+        <p><span class="stats">Health: <strong><span id="monsterHealth"></span></strong></span></p>
+      </div>
+    </main>
   </body>
 </html>

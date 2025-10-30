@@ -1,4 +1,54 @@
 body{
-	background: red;
-	font-size: 2em;
+	background: radial-gradient(circle at center, rgb(50, 50, 50) 15%, rgb(0, 0, 0));
+	color: white;
+}
+h2 {
+	display: none;
+}
+#story {
+	background-color: rgba(0, 0, 250, 50%);
+	border-radius: 7px;
+}
+#text {
+	color: white;
+	padding: 10px;
+	text-align: left;
+}
+#game {
+	width: 50vw;
+	margin: 0 auto;
+	padding: 20px;
+}
+#choicesContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.choiceButton {
+	background-color: blue;
+	width: 50vw;
+	color: white;
+	margin-right: 5px;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	font-family: fantasy;
+	font-size: 16px;
+
+}
+.choiceButton:hover {
+	background-color: lightblue;
+	color: black;
+}
+#stats {
+	margin: 0 auto;
+	padding: 5px;
+}
+#monsterStats {
+	display: none;
+	border: 1px black solid;
+	color: white;
+	background-color: red;
+}
+.stats {
+	padding-right: 15px;
 }
